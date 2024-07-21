@@ -1,0 +1,42 @@
+{
+  "name": "com.slax.inputsystem",
+  "version": "1.0.0",
+  "displayName": "InputSystem",
+  "description": "Preset configuration of action map and input handler class using events for Unity's new input system",
+  "unity": "2021.3",
+  "keywords": [
+    "Slax"
+  ],
+  "author": {
+    "url": "https://github.com/FelixBole",
+    "name": "Felix Bole",
+    "email": "felix.slax@gmail.com"
+  },
+  "dependencies": {
+    "com.unity.inputsystem": "1.7.0"
+  },
+  "files": [
+    "Documentation/**",
+    "Documentation.meta",
+    "Editor/**",
+    "Editor.meta",
+    "Runtime/**",
+    "Runtime.meta",
+    "Samples/**",
+    "Samples.meta",
+    "CHANGELOG.md",
+    "CHANGELOG.md.meta",
+    "LICENSE.md",
+    "LICENSE.md.meta",
+    "README.md",
+    "README.md.meta",
+    "package.json.meta"
+  ],
+  "samples": [
+    {
+      "displayName": "Input Handler",
+      "description": "Fully-fledged input handler with pre-defined events and actions",
+      "path": "Samples/InputHandler"
+    }
+  ]
+}
